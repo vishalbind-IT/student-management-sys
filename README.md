@@ -49,11 +49,11 @@ student_management_simple/
 
 1. **Clone the repository:**
 
-```bash
+
 git clone https://github.com/vishalbind-IT/student-management-system.git
 cd student-management-system
 
-Create a virtual environment & install dependencies:
+## Create a virtual environment & install dependencies:
 
 python -m venv venv
 # Windows
@@ -64,31 +64,32 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 
-Setup MySQL Database:
+## Setup MySQL Database:
 
 -- Run this in your MySQL console
 SOURCE db.sql;
 
 
-Run the Flask App:
+## Run the Flask App:
 
 python app.py
 
 
-Open in Browser:
+## Open in Browser:
 
 http://127.0.0.1:5000
 
 
-Default Admin Credentials:
+## Default Admin Credentials:
 
 Username: admin
 
 Password: admin123
 
-📌 Notes
+## 📌 Notes
 
 For production, consider adding CSRF protection and stricter validation.
 
 Use environment variables for sensitive credentials.
 
+```bash
